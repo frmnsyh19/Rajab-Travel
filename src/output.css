@@ -1723,6 +1723,10 @@ html {
   height: 35rem;
 }
 
+.h-\[20rem\] {
+  height: 20rem;
+}
+
 .min-h-full {
   min-height: 100%;
 }
