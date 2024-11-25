@@ -1711,6 +1711,14 @@ html {
   height: 100%;
 }
 
+.h-\[25rem\] {
+  height: 25rem;
+}
+
+.h-\[34rem\] {
+  height: 34rem;
+}
+
 .min-h-full {
   min-height: 100%;
 }
@@ -1795,6 +1803,10 @@ html {
   width: 40rem;
 }
 
+.w-\[28rem\] {
+  width: 28rem;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -1849,6 +1861,10 @@ html {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-16 {
+  gap: 4rem;
 }
 
 .overflow-hidden {
