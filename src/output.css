@@ -1719,6 +1719,10 @@ html {
   height: 34rem;
 }
 
+.h-\[35rem\] {
+  height: 35rem;
+}
+
 .min-h-full {
   min-height: 100%;
 }
@@ -1805,6 +1809,10 @@ html {
 
 .w-\[28rem\] {
   width: 28rem;
+}
+
+.w-\[25rem\] {
+  width: 25rem;
 }
 
 .flex-1 {
