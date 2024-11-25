@@ -1,0 +1,12 @@
+#testimoni {
+    /* Replace with your image path */
+    background-image: linear-gradient(
+            rgba(255, 255, 255, 0.7),
+            rgba(255, 255, 255, 0.7)
+        ),
+        url("/wisata/wisata.jpg"); /* Ganti dengan path gambar Anda */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Atur tinggi sesuai kebutuhan */
+}
