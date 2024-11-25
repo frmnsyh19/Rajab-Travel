@@ -1671,12 +1671,24 @@ html {
   margin-top: 1.5rem;
 }
 
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.mt-9 {
+  margin-top: 2.25rem;
+}
+
 .flex {
   display: flex;
 }
 
 .hidden {
   display: none;
+}
+
+.h-12 {
+  height: 3rem;
 }
 
 .h-48 {
@@ -1711,38 +1723,6 @@ html {
   height: 100%;
 }
 
-.h-0 {
-  height: 0px;
-}
-
-.h-16 {
-  height: 4rem;
-}
-
-.h-12 {
-  height: 3rem;
-}
-
-.h-14 {
-  height: 3.5rem;
-}
-
-.h-\[3\.3rem\] {
-  height: 3.3rem;
-}
-
-.h-\[3\.4rem\] {
-  height: 3.4rem;
-}
-
-.h-\[3\.5rem\] {
-  height: 3.5rem;
-}
-
-.h-\[3\.2rem\] {
-  height: 3.2rem;
-}
-
 .min-h-full {
   min-height: 100%;
 }
@@ -1769,10 +1749,6 @@ html {
 
 .w-40 {
   width: 10rem;
-}
-
-.w-44 {
-  width: 11rem;
 }
 
 .w-48 {
@@ -1803,6 +1779,10 @@ html {
   width: 22rem;
 }
 
+.w-\[24rem\] {
+  width: 24rem;
+}
+
 .w-\[25rem\] {
   width: 25rem;
 }
@@ -1821,10 +1801,6 @@ html {
 
 .w-screen {
   width: 100vw;
-}
-
-.w-\[24rem\] {
-  width: 24rem;
 }
 
 .flex-1 {
@@ -1942,6 +1918,11 @@ html {
   background-color: rgb(253 186 116 / var(--tw-bg-opacity));
 }
 
+.bg-slate-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
+
 .bg-slate-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(248 250 252 / var(--tw-bg-opacity));
@@ -1950,41 +1931,6 @@ html {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-orange-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(251 146 60 / var(--tw-bg-opacity));
-}
-
-.bg-indigo-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(55 48 163 / var(--tw-bg-opacity));
-}
-
-.bg-blue-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
-}
-
-.bg-blue-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 58 138 / var(--tw-bg-opacity));
-}
-
-.bg-slate-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
-}
-
-.bg-slate-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
-}
-
-.bg-slate-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
 .p-1 {
@@ -2122,6 +2068,10 @@ html {
     display: none;
   }
 
+  .lg\:h-0 {
+    height: 0px;
+  }
+
   .lg\:h-28 {
     height: 7rem;
   }
@@ -2152,10 +2102,6 @@ html {
 
   .lg\:h-screen {
     height: 100vh;
-  }
-
-  .lg\:h-0 {
-    height: 0px;
   }
 
   .lg\:w-11\/12 {
